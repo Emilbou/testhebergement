@@ -1,0 +1,1 @@
+import{c as a,o as r,F as l,a as t}from"./index-7ee25c0c.js";const _=(n,e)=>{const o=n.__vccOpts||n;for(const[c,s]of e)o[c]=s;return o},i={},u=t("h1",null,"4 Animations",-1),d=t("ul",null,[t("li",null,"1 Animation ")],-1);function f(n,e){return r(),a(l,null,[u,d],64)}const p=_(i,[["render",f]]);export{p as default};

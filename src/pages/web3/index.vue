@@ -1,4 +1,14 @@
+<script setup lang="ts">
+import {allCommand} from '@/backend';
+const donneesrecues = await allCommand();
+console.log(donneesrecues);
+</script>
+
+
 <template>
-    <h1>Web3 TEST</h1>
-    <RouterLink to="/web3/animation">4 Animations</RouterLink>
+<ul v-for="lesdonnees in donneesrecues" :key="lesdonnees.id" >
+<li>
+{{lesdonnees.text}}
+</li>
+</ul>
 </template>
